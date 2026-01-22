@@ -22,13 +22,13 @@ variable "Eth0SubnetId" {
 }
 
 variable "ImageSku" {
-	default = "keysight-ixnetwork-virtual-edition-client-11-00"
+	default = "keysight-ixnetwork-virtual-edition-client-26-0-0"
 	description = "An instance of an offer, such as a major release of a distribution."
 	type = string
 }
 
 variable "ImageVersion" {
-	default = "11.0.10"
+	default = "26.0.6"
 	description = "The version number of an image SKU."
 	type = string
 }
@@ -95,7 +95,7 @@ variable "UserProjectTag" {
 }
 
 variable "Version" {
-	default = "11-00"
+	default = "26.0.0"
 	description = "Versioning of the application using the deployment"
 	type = string
 }
